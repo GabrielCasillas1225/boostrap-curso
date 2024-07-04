@@ -26,6 +26,15 @@ body{
 
 /*** Boostrap Styles ***/
 
+.navbar-brand img{
+    width:auto;
+    height: 3rem;
+}
+
+.bg-dark{
+    background-color: var(--second-color)!important;
+}
+
 
 /*** My Styles ***/
 
