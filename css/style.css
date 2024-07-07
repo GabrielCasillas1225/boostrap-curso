@@ -26,13 +26,37 @@ body{
 
 /*** Boostrap Styles ***/
 
+.bg-dark{
+    background-color: var(--second-color)!important;
+}
+
 .navbar-brand img{
     width:auto;
     height: 3rem;
 }
 
-.bg-dark{
-    background-color: var(--second-color)!important;
+.nav-item{
+    padding-left: 0.5rem;
+    transition: all 0.3s ease-out;
+}
+
+.nav-item:hover{
+    background-color: var(--first-color);
+}
+
+.nav-link{
+    color: var(--first-color);
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: --bs-white;
+}
+
+.navbar-toggler:hover{
+    color: var(--first-color);
+    transition: all 0.3s ease-out;
 }
 
 
