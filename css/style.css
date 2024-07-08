@@ -30,13 +30,22 @@ body{
     background-color: var(--second-color)!important;
 }
 
+.dropdown-item{
+    color: var(--first-alpha-color);
+    font-weight: bold;
+    transition: all 0.3s ease-out;
+}
+
+.dropdown-item:hover{
+    color: var(--third-alpha-color);
+}
+
 .navbar-brand img{
     width:auto;
     height: 3rem;
 }
 
 .nav-item{
-    padding-left: 0.5rem;
     transition: all 0.3s ease-out;
 }
 
@@ -45,6 +54,7 @@ body{
 }
 
 .nav-link{
+    margin-left: 0.5rem;
     color: var(--first-color);
     font-size: 1.15rem;
     font-weight: bold;
@@ -78,6 +88,9 @@ body{
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+    .nav-item:hover{
+    background-color: transparent;
+    }
 
 }
 
