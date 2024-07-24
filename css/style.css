@@ -38,6 +38,10 @@ a:hover{
     background-color: var(--second-color)!important;
 }
 
+.carousel-caption{
+    z-index: 1;
+}
+
 .carousel-control-prev-icon{
     background-color: var(--first-color);
 }
